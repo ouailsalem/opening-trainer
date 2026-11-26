@@ -1,0 +1,12 @@
+Human-like bot files
+
+maia2-rapid-fp16.onnx
+  Maia-2 rapid model by the University of Toronto CSSLab (https://github.com/CSSLab/maia2),
+  released under the MIT License. Weights taken from the official checkpoint
+  (huggingface.co/shermansiu/maia2-rapid, MIT), exported to ONNX and converted to float16
+  for this app. Paper: Tang et al., "Maia-2: A Unified Model for Human-AI Alignment in Chess",
+  NeurIPS 2024.
+
+ort.wasm.min.js, ort-wasm-simd-threaded.mjs, ort-wasm-simd-threaded.wasm
+  ONNX Runtime Web 1.31.1 by Microsoft (https://github.com/microsoft/onnxruntime),
+  released under the MIT License.
